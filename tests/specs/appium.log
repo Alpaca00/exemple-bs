@@ -1,0 +1,298 @@
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[Appium] Available drivers:
+[Appium]   - flutter@1.2.0 (automationName 'Flutter')
+[Appium] Available plugins:
+[Appium]   - relaxed-caps@1.0.0-beta.9 (ACTIVE)
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"flutter","appium:platformVersion":"11","appium:deviceName":"ryder","appium:app":"C:\\bs\\builds\\app-counter.apk","appium:newCommandTimeout":20000},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:automationName":"flutter","appium:platformVersion":"11","appium:deviceName":"ryder","appium:app":"C:\\bs\\builds\\app-counter.apk","appium:newCommandTimeout":20000}}
+[debug] [AppiumDriver@da08] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:automationName":"flutter","appium:platformVersion":"11","appium:deviceName":"ryder","appium:app":"C:\\bs\\builds\\app-counter.apk","appium:newCommandTimeout":20000},null,{"alwaysMatch":{"platformName":"Android","appium:automationName":"flutter","appium:platformVersion":"11","appium:deviceName":"ryder","appium:app":"C:\\bs\\builds\\app-counter.apk","appium:newCommandTimeout":20000},"firstMatch":[{}]}]
+[AppiumDriver@da08] Plugins which can handle cmd 'createSession': relaxed-caps
+[AppiumDriver@da08] Plugin relaxed-caps is now handling cmd 'createSession'
+[Appium] Attempting to find matching driver for automationName 'flutter' and platformName 'Android'
+[Appium] The 'flutter' driver was installed and matched caps.
+[Appium] Will require it at C:\Users\o.matskiv\.appium\node_modules\appium-flutter-driver
+[debug] [Appium] Requiring driver at C:\Users\o.matskiv\.appium\node_modules\appium-flutter-driver
+[AppiumDriver@da08] Appium v2.0.0-beta.39 creating new FlutterDriver (v1.2.0) session
+[AppiumDriver@da08] Checking BaseDriver versions for Appium and FlutterDriver
+[AppiumDriver@da08] Appium's BaseDriver version is 8.5.7
+[AppiumDriver@da08] FlutterDriver's BaseDriver version is 8.5.7
+[debug] [AppiumDriver@da08] There are no active sessions for cleanup
+[debug] [FlutterDriver@eb49] Creating session with W3C capabilities: {
+[debug] [FlutterDriver@eb49]   "alwaysMatch": {
+[debug] [FlutterDriver@eb49]     "platformName": "Android",
+[debug] [FlutterDriver@eb49]     "appium:automationName": "flutter",
+[debug] [FlutterDriver@eb49]     "appium:platformVersion": "11",
+[debug] [FlutterDriver@eb49]     "appium:deviceName": "ryder",
+[debug] [FlutterDriver@eb49]     "appium:app": "C:\\bs\\builds\\app-counter.apk",
+[debug] [FlutterDriver@eb49]     "appium:newCommandTimeout": 20000
+[debug] [FlutterDriver@eb49]   },
+[debug] [FlutterDriver@eb49]   "firstMatch": [
+[debug] [FlutterDriver@eb49]     {}
+[debug] [FlutterDriver@eb49]   ]
+[debug] [FlutterDriver@eb49] }
+[FlutterDriver@eb49] The following capabilities were provided, but are not recognized by Appium:
+[FlutterDriver@eb49]   app
+[FlutterDriver@eb49 (c5000195)] Session created with session id: c5000195-af3b-4888-83d2-e22b072297b1
+[FlutterDriver] Starting an Android proxy session
+[debug] [AndroidUiautomator2Driver@e1ec] Creating session with W3C capabilities: {
+[debug] [AndroidUiautomator2Driver@e1ec]   "alwaysMatch": {
+[debug] [AndroidUiautomator2Driver@e1ec]     "platformName": "Android",
+[debug] [AndroidUiautomator2Driver@e1ec]     "appium:automationName": "flutter",
+[debug] [AndroidUiautomator2Driver@e1ec]     "appium:platformVersion": "11",
+[debug] [AndroidUiautomator2Driver@e1ec]     "appium:deviceName": "ryder",
+[debug] [AndroidUiautomator2Driver@e1ec]     "appium:app": "C:\\bs\\builds\\app-counter.apk",
+[debug] [AndroidUiautomator2Driver@e1ec]     "appium:newCommandTimeout": 20000
+[debug] [AndroidUiautomator2Driver@e1ec]   },
+[debug] [AndroidUiautomator2Driver@e1ec]   "firstMatch": [
+[debug] [AndroidUiautomator2Driver@e1ec]     {}
+[debug] [AndroidUiautomator2Driver@e1ec]   ]
+[debug] [AndroidUiautomator2Driver@e1ec] }
+[AndroidUiautomator2Driver@e1ec (821d994d)] Session created with session id: 821d994d-905f-4a61-8791-918229b56ae6
+[BaseDriver] Using local app 'C:\bs\builds\app-counter.apk'
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Checking whether app is actually present
+[ADB] Found 5 'build-tools' folders under 'C:\Users\o.matskiv\AppData\Local\Android\Sdk' (newest first):
+[ADB]     C:/Users/o.matskiv/AppData/Local/Android/Sdk/build-tools/32.0.0
+[ADB]     C:/Users/o.matskiv/AppData/Local/Android/Sdk/build-tools/30.0.3
+[ADB]     C:/Users/o.matskiv/AppData/Local/Android/Sdk/build-tools/30.0.2
+[ADB]     C:/Users/o.matskiv/AppData/Local/Android/Sdk/build-tools/29.0.2
+[ADB]     C:/Users/o.matskiv/AppData/Local/Android/Sdk/build-tools/28.0.3
+[ADB] Using 'adb.exe' from 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices
+[debug] [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[AndroidDriver] Looking for a device with Android '11.0.0'
+[debug] [ADB] Setting device id to emulator-5554
+[ADB] Getting device platform version
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 11
+[AndroidDriver] Using device: emulator-5554
+[ADB] Using 'adb.exe' from 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[debug] [ADB] Setting device id to emulator-5554
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[debug] [ADB] Current device property 'ro.build.version.sdk': 30
+[ADB] Getting device platform version
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 11
+[debug] [ADB] Device API level: 30
+[AndroidUiautomator2Driver@e1ec (821d994d)] Relaxing hidden api policy
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[debug] [AndroidDriver] Parsing package and activity from app manifest
+[ADB] Package name: 'com.example.test_version'
+[ADB] Main activity name: 'com.example.test_version.MainActivity'
+[debug] [AndroidDriver] Parsed package and activity are: com.example.test_version/com.example.test_version.MainActivity
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [ADB] 'io.appium.settings' is installed
+[debug] [ADB] Getting package info for 'io.appium.settings'
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[debug] [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('4.0.9' >= '4.0.9')
+[debug] [ADB] There is no need to install/upgrade 'C:\Users\o.matskiv\.appium\node_modules\appium-flutter-driver\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [ADB] Getting IDs of all 'io.appium.settings' processes
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [Logcat] Starting logs capture with command: C:\\Users\\o.matskiv\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Forwarding UiAutomator2 Server port 6790 to local port 8200
+[debug] [ADB] Forwarding system: 8200 to device: 6790
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] 'io.appium.uiautomator2.server' is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.6.2' >= '5.6.2')
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] [ADB] Checking app cert for C:\Users\o.matskiv\.appium\node_modules\appium-flutter-driver\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.6.2.apk
+[ADB] Using 'apksigner.jar' from 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\build-tools\32.0.0\lib\apksigner.jar'
+[debug] [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_301\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\o.matskiv\\AppData\\Local\\Android\\Sdk\\build-tools\\32.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\o.matskiv\\.appium\\node_modules\\appium-flutter-driver\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.6.2.apk
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] sha256 hash did match for 'appium-uiautomator2-server-v5.6.2.apk'
+[ADB] 'C:\Users\o.matskiv\.appium\node_modules\appium-flutter-driver\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.6.2.apk' is signed with the default certificate
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] [ADB] 'io.appium.uiautomator2.server.test' is installed
+[debug] [ADB] Checking app cert for C:\Users\o.matskiv\.appium\node_modules\appium-flutter-driver\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_301\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\o.matskiv\\AppData\\Local\\Android\\Sdk\\build-tools\\32.0.0\\lib\\apksigner.jar verify --print-certs C:\\Users\\o.matskiv\\.appium\\node_modules\\appium-flutter-driver\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+[ADB] 'C:\Users\o.matskiv\.appium\node_modules\appium-flutter-driver\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[AndroidUiautomator2Driver@e1ec (821d994d)] Server packages are not going to be (re)installed
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Waiting up to 30000ms for services to be available
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[debug] [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[debug] [ADB] Checking app cert for C:\bs\builds\app-counter.apk
+[debug] [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_301\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\o.matskiv\\AppData\\Local\\Android\\Sdk\\build-tools\\32.0.0\\lib\\apksigner.jar verify --print-certs C:\\bs\\builds\\app-counter.apk
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+[debug] [ADB] Signer #1 certificate SHA-256 digest: 193bc84c0f774046da075a8c2171f3d301fa3a05d20745c8aa8fd3ec4e626ca8
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 756c8f57b19f8f621a313ea21fa5f2b1bc4edfe1
+[debug] [ADB] Signer #1 certificate MD5 digest: 1392fd9b8f2e7452d925db5f905e6f67
+[debug] [ADB]
+[ADB] 'C:\bs\builds\app-counter.apk' is signed with a non-default certificate
+[debug] [ADB] Getting install status for com.example.test_version
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.example.test_version'
+[debug] [ADB] 'com.example.test_version' is installed
+[debug] [ADB] Getting package info for 'com.example.test_version'
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.example.test_version'
+[debug] [ADB] The version name of the installed 'com.example.test_version' is greater or equal to the application version name ('1.0.0' >= '1.0.0')
+[debug] [ADB] There is no need to install/upgrade 'C:\bs\builds\app-counter.apk'
+[AndroidDriver] Performing fast reset on 'com.example.test_version'
+[debug] [ADB] Getting install status for com.example.test_version
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.example.test_version'
+[debug] [ADB] 'com.example.test_version' is installed
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.example.test_version'
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.example.test_version'
+[debug] [AndroidDriver] Performed fast reset on the installed 'com.example.test_version' application (stop and clear)
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Performing shallow cleanup of automation leftovers
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] No obsolete sessions have been detected (socket hang up)
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+[AndroidUiautomator2Driver@e1ec (821d994d)] Starting UIAutomator2 server 5.6.2
+[AndroidUiautomator2Driver@e1ec (821d994d)] Using UIAutomator2 server from 'C:\Users\o.matskiv\.appium\node_modules\appium-flutter-driver\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.6.2.apk' and test from 'C:\Users\o.matskiv\.appium\node_modules\appium-flutter-driver\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[AndroidUiautomator2Driver@e1ec (821d994d)] Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Matched '/status' to command name 'getStatus'
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[AndroidUiautomator2Driver@e1ec (821d994d)] socket hang up
+[debug] [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Matched '/status' to command name 'getStatus'
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[AndroidUiautomator2Driver@e1ec (821d994d)] socket hang up
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Matched '/status' to command name 'getStatus'
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] The initialization of the instrumentation process took 2107ms
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Matched '/session' to command name 'createSession'
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"flutter","platformVersion":"11","deviceName":"ryder","app":"C:\\bs\\builds\\app-counter.apk","newCommandTimeout":20000},"platformName":"Android","automationName":"flutter","platformVersion":"11","deviceName":"emulator-5554","app":"C:\\bs\\builds\\app-counter.apk","newCommandTimeout":20000,"deviceUDID":"emulator-5554","appPackage":"com.example.test_version"}],"alwaysMatch":{}}}
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Got response with status 200: {"sessionId":"b5fbbb1e-ef69-4d4c-a553-cc5645790091","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"flutter","platformVersion":"11","deviceName":"ryder","app":"C:\\bs\\builds\\app-counter.apk","newCommandTimeout":20000},"platformName":"Android","automationName":"flutter","platformVersion":"11","deviceName":"emulator-5554","app":"C:\\bs\\builds\\app-counter.apk","newCommandTimeout":20000,"deviceUDID":"emulator-5554","appPackage":"com.example.test_version"}],"alwaysMatch":{}},"sessionId":"b5fbbb1e-ef69-4d4c-a553-cc5645790091"}}
+[AndroidUiautomator2Driver@e1ec (821d994d)] Determined the downstream protocol as 'W3C'
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/b5fbbb1e-ef69-4d4c-a553-cc5645790091/appium/device/info] with no body
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Got response with status 200: {"sessionId":"b5fbbb1e-ef69-4d4c-a553-cc5645790091","value":{"androidId":"521ac89041c8b923","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"Android","displayDensity":440,"locale":"en_CA","manufacturer":"Google","model":"sdk_gphone_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName...
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+[AndroidDriver] Screen already unlocked, doing nothing
+[AndroidUiautomator2Driver@e1ec (821d994d)] Starting 'com.example.test_version/com.example.test_version.MainActivity and waiting for 'com.example.test_version/com.example.test_version.MainActivity'
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.example.test_version/com.example.test_version.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [ADB] Waiting up to 20000ms for activity matching pkg: 'com.example.test_version' and activity: 'com.example.test_version.MainActivity' to be focused
+[debug] [ADB] Possible activities, to be checked: 'com.example.test_version.MainActivity', 'com.example.test_version.com.example.test_version.MainActivity'
+[debug] [ADB] Getting focused package and activity
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window displays'
+[debug] [ADB] Found package: 'com.example.test_version' and fully qualified activity name : 'com.example.test_version.MainActivity'
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/b5fbbb1e-ef69-4d4c-a553-cc5645790091/appium/device/pixel_ratio] with no body
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Got response with status 200: {"sessionId":"b5fbbb1e-ef69-4d4c-a553-cc5645790091","value":2.75}
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/b5fbbb1e-ef69-4d4c-a553-cc5645790091/appium/device/system_bars] with no body
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Got response with status 200: {"sessionId":"b5fbbb1e-ef69-4d4c-a553-cc5645790091","value":{"statusBar":135}}
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Matched '/window/current/size' to command name 'getWindowSize'
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/b5fbbb1e-ef69-4d4c-a553-cc5645790091/window/current/size] with no body
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Got response with status 200: {"sessionId":"b5fbbb1e-ef69-4d4c-a553-cc5645790091","value":{"height":1977,"width":1080}}
+[FlutterDriver] Attempt #1
+[ADB] Found 5 'build-tools' folders under 'C:\Users\o.matskiv\AppData\Local\Android\Sdk' (newest first):
+[ADB]     C:/Users/o.matskiv/AppData/Local/Android/Sdk/build-tools/32.0.0
+[ADB]     C:/Users/o.matskiv/AppData/Local/Android/Sdk/build-tools/30.0.3
+[ADB]     C:/Users/o.matskiv/AppData/Local/Android/Sdk/build-tools/30.0.2
+[ADB]     C:/Users/o.matskiv/AppData/Local/Android/Sdk/build-tools/29.0.2
+[ADB]     C:/Users/o.matskiv/AppData/Local/Android/Sdk/build-tools/28.0.3
+[ADB] Using 'adb.exe' from 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices
+[debug] [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[AndroidDriver] Looking for a device with Android '11.0.0'
+[debug] [ADB] Setting device id to emulator-5554
+[ADB] Getting device platform version
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 11
+[AndroidDriver] Using device: emulator-5554
+[debug] [FlutterDriver] C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 forward tcp:38499 tcp:38499
+[FlutterDriver] Connecting to Dart Observatory: ws://127.0.0.1:38499/-VG0iNhKEoc=/ws
+[FlutterDriver] Connecting to ws://127.0.0.1:38499/-VG0iNhKEoc=/ws
+[FlutterDriver] Listing all isolates: [{"type":"@Isolate","id":"isolates/2054678169864939","name":"main","number":"2054678169864939","isSystemIsolate":false}]
+[AppiumDriver@da08] New FlutterDriver session created successfully, session c5000195-af3b-4888-83d2-e22b072297b1 added to master session list
+[AppiumDriver@da08] Command 'createSession' was *not* handled by the following behaviours or plugins, even though they were registered to handle it: ["default"]. The command *was* handled by these: ["relaxed-caps"].
+[AppiumDriver@da08] Promoting 1 sessionless plugins to be attached to session ID c5000195-af3b-4888-83d2-e22b072297b1
+[debug] [FlutterDriver@eb49 (c5000195)] Cached the protocol value 'W3C' for the new session c5000195-af3b-4888-83d2-e22b072297b1
+[debug] [FlutterDriver@eb49 (c5000195)] Responding to client with driver.createSession() result: {"capabilities":{"subcommand":"server","address":"0.0.0.0","basePath":"/wd/hub","port":4723,"sessionOverride":true,"usePlugins":["relaxed-caps"],"allowCors":false,"allowInsecure":[],"callbackPort":4723,"debugLogSpacing":false,"denyInsecure":[],"keepAliveTimeout":600,"localTimezone":false,"loglevel":"debug","logNoColors":false,"logTimestamp":false,"longStacktrace":false,"noPermsCheck":false,"relaxedSecurityEnabled":false,"strictCaps":false,"useDrivers":[],"tmpDir":"C:\\Users\\O974F~1.MAT\\AppData\\Local\\Temp","platformName":"Android","automationName":"flutter","platformVersion":"11","deviceName":"ryder","app":"C:\\bs\\builds\\app-counter.apk","newCommandTimeout":20000,"fastReset":true,"skipUninstall":true}}
+[HTTP] <-- POST /wd/hub/session 200 10216 ms - 777
+[HTTP]
+[HTTP] --> POST /wd/hub/session/c5000195-af3b-4888-83d2-e22b072297b1/execute/sync
+[HTTP] {"script":"flutter:waitForTappable","args":["eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoicGx1cyIsImtleVZhbHVlVHlwZSI6IlN0cmluZyJ9"]}
+[debug] [FlutterDriver@eb49 (c5000195)] Calling AppiumDriver.execute() with args: ["flutter:waitForTappable",["eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoicGx1cyIsImtleVZhbHVlVHlwZSI6IlN0cmluZyJ9"],"c5000195-af3b-4888-83d2-e22b072297b1"]
+[debug] [FlutterDriver] Executing Flutter driver command 'execute'
+[debug] [FlutterDriver] >>> {"command":"waitForTappable","finderType":"ByValueKey","keyValueString":"plus","keyValueType":"String"}
+[debug] [FlutterDriver] <<< {"isError":false,"response":{},"type":"_extensionType","method":"ext.flutter.driver"} | previous command waitForTappable
+[debug] [FlutterDriver@eb49 (c5000195)] Responding to client with driver.execute() result: "eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoicGx1cyIsImtleVZhbHVlVHlwZSI6IlN0cmluZyJ9"
+[HTTP] <-- POST /wd/hub/session/c5000195-af3b-4888-83d2-e22b072297b1/execute/sync 200 74 ms - 112
+[HTTP]
+[HTTP] --> POST /wd/hub/session/c5000195-af3b-4888-83d2-e22b072297b1/element/eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoicGx1cyIsImtleVZhbHVlVHlwZSI6IlN0cmluZyJ9/click
+[HTTP] {}
+[debug] [FlutterDriver@eb49 (c5000195)] Calling AppiumDriver.click() with args: ["eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoicGx1cyIsImtleVZhbHVlVHlwZSI6IlN0cmluZyJ9","c5000195-af3b-4888-83d2-e22b072297b1"]
+[debug] [FlutterDriver] Executing Flutter driver command 'click'
+[debug] [FlutterDriver] >>> {"command":"tap","finderType":"ByValueKey","keyValueString":"plus","keyValueType":"String"}
+[debug] [FlutterDriver] <<< {"isError":false,"response":{},"type":"_extensionType","method":"ext.flutter.driver"} | previous command tap
+[debug] [FlutterDriver@eb49 (c5000195)] Responding to client with driver.click() result: {}
+[HTTP] <-- POST /wd/hub/session/c5000195-af3b-4888-83d2-e22b072297b1/element/eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoicGx1cyIsImtleVZhbHVlVHlwZSI6IlN0cmluZyJ9/click 200 112 ms - 12
+[HTTP]
+[HTTP] --> POST /wd/hub/session/c5000195-af3b-4888-83d2-e22b072297b1/element/eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoicGx1cyIsImtleVZhbHVlVHlwZSI6IlN0cmluZyJ9/click
+[HTTP] {}
+[debug] [FlutterDriver@eb49 (c5000195)] Calling AppiumDriver.click() with args: ["eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoicGx1cyIsImtleVZhbHVlVHlwZSI6IlN0cmluZyJ9","c5000195-af3b-4888-83d2-e22b072297b1"]
+[debug] [FlutterDriver] Executing Flutter driver command 'click'
+[debug] [FlutterDriver] >>> {"command":"tap","finderType":"ByValueKey","keyValueString":"plus","keyValueType":"String"}
+[debug] [FlutterDriver] <<< {"isError":false,"response":{},"type":"_extensionType","method":"ext.flutter.driver"} | previous command tap
+[debug] [FlutterDriver@eb49 (c5000195)] Responding to client with driver.click() result: {}
+[HTTP] <-- POST /wd/hub/session/c5000195-af3b-4888-83d2-e22b072297b1/element/eyJmaW5kZXJUeXBlIjoiQnlWYWx1ZUtleSIsImtleVZhbHVlU3RyaW5nIjoicGx1cyIsImtleVZhbHVlVHlwZSI6IlN0cmluZyJ9/click 200 217 ms - 12
+[HTTP]
+[HTTP] --> POST /wd/hub/session/c5000195-af3b-4888-83d2-e22b072297b1/execute/sync
+[HTTP] {"script":"flutter:waitForAbsent","args":["eyJmaW5kZXJUeXBlIjoiQnlUZXh0IiwidGV4dCI6IjEifQ"]}
+[debug] [FlutterDriver@eb49 (c5000195)] Calling AppiumDriver.execute() with args: ["flutter:waitForAbsent",["eyJmaW5kZXJUeXBlIjoiQnlUZXh0IiwidGV4dCI6IjEifQ"],"c5000195-af3b-4888-83d2-e22b072297b1"]
+[debug] [FlutterDriver] Executing Flutter driver command 'execute'
+[debug] [FlutterDriver] >>> {"command":"waitForAbsent","finderType":"ByText","text":"1"}
+[debug] [FlutterDriver] <<< {"isError":false,"response":{},"type":"_extensionType","method":"ext.flutter.driver"} | previous command waitForAbsent
+[debug] [FlutterDriver@eb49 (c5000195)] Responding to client with driver.execute() result: "eyJmaW5kZXJUeXBlIjoiQnlUZXh0IiwidGV4dCI6IjEifQ"
+[HTTP] <-- POST /wd/hub/session/c5000195-af3b-4888-83d2-e22b072297b1/execute/sync 200 231 ms - 58
+[HTTP]
+[HTTP] --> DELETE /wd/hub/session/c5000195-af3b-4888-83d2-e22b072297b1
+[HTTP] {}
+[debug] [FlutterDriver@eb49 (c5000195)] Calling AppiumDriver.deleteSession() with args: ["c5000195-af3b-4888-83d2-e22b072297b1"]
+[debug] [AppiumDriver@da08] Event 'quitSessionRequested' logged at 1662046883099 (18:41:23 GMT+0300 (Р·Р° СЃС…С–РґРЅРѕС”РІСЂРѕРїРµР№СЃСЊРєРёРј Р»С–С‚РЅС–Рј С‡Р°СЃРѕРј))
+[AppiumDriver@da08] Removing session c5000195-af3b-4888-83d2-e22b072297b1 from our master session list
+[debug] [FlutterDriver] Deleting Flutter Driver session
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Deleting UiAutomator2 session
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Deleting UiAutomator2 server session
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Matched '/' to command name 'deleteSession'
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/b5fbbb1e-ef69-4d4c-a553-cc5645790091] with no body
+[debug] [AndroidUiautomator2Driver@e1ec (821d994d)] Got response with status 200: {"sessionId":"b5fbbb1e-ef69-4d4c-a553-cc5645790091","value":null}
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.example.test_version'
+[FlutterDriver] Connection to ws://127.0.0.1:38499/-VG0iNhKEoc=/ws closed
+[debug] [Logcat] Stopping logcat capture
+[debug] [ADB] Removing forwarded port socket connection: 8200
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8200'
+[AndroidUiautomator2Driver@e1ec (821d994d)] Restoring hidden api policy to the device default configuration
+[debug] [ADB] Running 'C:\Users\o.matskiv\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[debug] [AppiumDriver@da08] Event 'quitSessionFinished' logged at 1662046883417 (18:41:23 GMT+0300 (Р·Р° СЃС…С–РґРЅРѕС”РІСЂРѕРїРµР№СЃСЊРєРёРј Р»С–С‚РЅС–Рј С‡Р°СЃРѕРј))
+[debug] [AppiumDriver@da08] Received response: null
+[debug] [AppiumDriver@da08] But deleting session, so not returning
+[debug] [AppiumDriver@da08] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/c5000195-af3b-4888-83d2-e22b072297b1 200 321 ms - 14
+[HTTP]
+[debug] [Instrumentation] .
+[debug] [Instrumentation] Time: 6.045
+[debug] [Instrumentation]
+[debug] [Instrumentation] OK (1 test)
+[debug] [Instrumentation] The process has exited with code 0
+2022-09-01 16:00:03:026 [Appium] Received SIGINT - shutting down
